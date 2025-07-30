@@ -14,7 +14,7 @@ pipeline {
             stage('JUnit TestCase Execution') {
                 steps {
                     echo 'estCase execution is In Progress!'
-                    sh 'mvn clean compile'
+                    sh 'mvn test'
                 }
             }
             stage('Code Package Execution') {
