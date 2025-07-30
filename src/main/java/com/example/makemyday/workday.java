@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class workday {
     @GetMapping({"/workday"})
     public String getData() {
-        return "Please work your task on scheduled manner & not delayed";
+        return "Please work your task ";
     }
 }
